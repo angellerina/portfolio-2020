@@ -149,6 +149,20 @@ div > button:hover {
 a {
   text-decoration: none;
   color: inherit;
+  pointer-events: all;
+}
+
+.svg-inline--fa.fa-instagram.fa-w-14,
+.svg-inline--fa.fa-linkedin.fa-w-14 {
+  width: 25px;
+  height: 25px;
+  margin: 0 0 0 20px;
+  color: #fff;
+}
+
+.svg-inline--fa.fa-instagram.fa-w-14:hover,
+.svg-inline--fa.fa-linkedin.fa-w-14:hover {
+  color: #000;
 }
 
 /* 
