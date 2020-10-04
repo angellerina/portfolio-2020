@@ -11,7 +11,6 @@
 *:after {
   box-sizing: border-box;
 }
-
 /* 
 ---------------
 (1)- adding 100% for body
@@ -177,7 +176,7 @@ main {
   grid: flex;
   justify-content: center;
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   pointer-events: none;
   /* (8)- hide the image */
@@ -195,14 +194,13 @@ main {
 */
 
 main h1 {
-  font-size: 220px;
+  font-size: 10vw;
   font-weight: 100;
-  letter-spacing: -17px;
-  line-height: 154px;
+  margin-left: 12px;
 }
 
 main h2 {
-  font-size: 84px;
+  font-size: 5vw;
   margin-left: 12px;
   font-weight: 200;
 }
@@ -212,7 +210,7 @@ main h2 span {
 }
 
 main h3 {
-  font-size: 54px;
+  font-size: 5vw;
   font-weight: 200;
   margin-left: 12px;
 }
@@ -242,6 +240,16 @@ main h3 span {
   width: 70vw;
   margin: 40px 0 0 12px;
 }
+
+@media only screen and (max-width: 800px) {
+  main {
+    top: 35%;
+  }
+  .projects {
+    height: 5px;
+  }
+}
+
 .items {
   display: grid;
   place-items: center;
