@@ -241,12 +241,15 @@ main h3 span {
   margin: 40px 0 0 12px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px), (max-height: 880px) {
   main {
-    top: 35%;
+    top: 25%;
   }
   .projects {
     height: 5px;
+  }
+  .items {
+    padding: 0;
   }
 }
 
